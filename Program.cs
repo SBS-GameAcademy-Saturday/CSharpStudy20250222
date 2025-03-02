@@ -6,27 +6,43 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            // 변수의 선언과 데이터 타입
-            // 변수의 선언하는 방법
-            // (데이터 타입) (변수 이름) = (값)
-            Console.WriteLine("Hello World");
+            // 놀이동산 입장권
+            // 사용자로부터 나이, 군인 할인, 연관 회원 여부를 입력 받아서 입장 요금을 계산합니다.
 
-            string myName = "Hello";
-            Console.WriteLine(myName);
+            // 무료입장 조건
+            // 1, 나이가 3세 이하
+            // 2, 나이가 65세 이상
+            // 3, 연간 회원
 
-            int age = 25;
-            Console.WriteLine(age);
+            // 할인 적용
+            // 1, 군인일 경우 -> 30% 할인
 
-            // 정수형 데이터
-            int myInt = 25;
-            short myShort = 25;
-            long myLong = 25;
-            byte myByte = 25;
+            // 일반 요금
+            // 성인(19~64) : 10000원
+            // 청소년(13~18세) : 8000원
+            // 어린이(4~12) : 5000원
 
-            Console.WriteLine(myByte);
-            Console.WriteLine(myShort);
-            Console.WriteLine(myLong);
-            Console.WriteLine(myInt);
+            // 출력 예시
+            // 나이를 입력 하세요 : 20
+            // 군인인가요? (네/아니요) : 네
+            // 연간 회원인가요? (네/아니요) : 아니요
+            // 입장료는 7000원입니다.
+
+            // 나이를 입력 하세요 : 20
+            // 군인인가요? (네/아니요) : 네
+            // 연간 회원인가요? (네/아니요) : 네
+            // 무료 입장입니다.
+
+            Console.Write("나이를 입력 하세요 : ");
+            string ageInput = Console.ReadLine();
+
+            // Parse
+
+            // 군인 여부 입력
+
+            // 연간 회원 여부 입력
+
+
         }
     }
 }
